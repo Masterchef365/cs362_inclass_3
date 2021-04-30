@@ -18,5 +18,10 @@ class CalcTest(unittest.TestCase):
         result = divide(5, 8)
         self.assertEqual(result, 5 / 8)
 
+    def test_failing_add(self):
+        result = add(5, 8)
+        self.assertEqual(result, 5 / 8)
+
+
 if __name__ == "__main__":
     unittest.main()
